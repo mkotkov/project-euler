@@ -18,4 +18,4 @@ const multiplesOf3Or5 = (number) => {
   return total;
 };
 
-console.log(multiplesOf3Or5(1000));
+module.exports = multiplesOf3Or5;

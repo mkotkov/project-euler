@@ -15,9 +15,21 @@ Link to project with problems: [https://projecteuler.net/](https://projecteuler.
 
 ### Java Script
 
-
-
-### Golang
+```
+cd ./solutions/js/
+node main.js
+```
 
 
 ### Python
+
+``` 
+cd ./solutions/js/
+python  main.py
+```
+
+### Golang
+``` 
+cd ./solutions/go/
+go run main.go
+``` 
