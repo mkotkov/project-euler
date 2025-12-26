@@ -31,5 +31,5 @@ python  main.py
 ### Golang
 ``` 
 cd ./solutions/go/
-go run main.go
+go run .
 ``` 

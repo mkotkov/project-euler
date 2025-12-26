@@ -6,8 +6,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-
-	"project-euler-go/problems"
 )
 
 func main() {
@@ -24,7 +22,7 @@ func main() {
 		return
 	}
 
-	solver, exists := problems.Problems[problemNumber]
+	solver, exists := Solutions[problemNumber]
 	if !exists {
 		fmt.Println("Problem not found")
 		return
