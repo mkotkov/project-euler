@@ -7,4 +7,5 @@ var Solutions = map[int]func(int) int{
 	2: problems.FibonacciSum,        //Even Fibonacci numbers
 	3: problems.LargestPrimeFactor,  //Largest prime factor
 	4: problems.LargestPalindrome,   //Largest palindrome product
+	5: problems.SmallestMultiple,   //Smallest multiple
 }
