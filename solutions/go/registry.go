@@ -9,4 +9,5 @@ var Solutions = map[int]func(int) int{
 	4: problems.LargestPalindrome,   //Largest palindrome product
 	5: problems.SmallestMultiple,   //Smallest multiple
 	6: problems.SumSquareDifference, //Sum square difference
+	7: problems.NthPrime,           //10001st prime
 }
