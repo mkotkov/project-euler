@@ -5,6 +5,7 @@ const problem_4 = require("./problems/problem_4_solution"); //Largest palindrome
 const problem_5 = require("./problems/problem_5_solution"); //Smallest multiple
 const problem_6 = require("./problems/problem_6_solution"); //Sum square difference
 const problem_7 = require("./problems/problem_7_solution"); //10001st prime
+const problem_8 = require("./problems/problem_8_solution"); //Largest product in a series
 
 const PROBLEMS = {
   1: problem_1, // Problem 1: Multiples of 3 and 5
@@ -14,6 +15,7 @@ const PROBLEMS = {
   5: problem_5, // Problem 5: Smallest multiple
   6: problem_6, // Problem 6: Sum square difference
   7: problem_7, // Problem 7: 10001st prime
+  8: problem_8, // Problem 8: Largest product in a series
 };
 
 module.exports = { PROBLEMS};

@@ -2,15 +2,15 @@
 # By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 # What is the 10,001st prime number?
 
-from base.is_prime import num_is_prime as is_prime
+from base.is_prime import num_is_prime as is_prime  # Importing the is_prime function from base.is_prime module
 
 def nth_prime(n):
     count = 0  # Count of primes found
     candidate = 1  # Current number to check for primality
 
-    while count < n:
-        candidate += 1
-        if is_prime(candidate):
-            count += 1
+    while count < n: # Loop until we find the nth prime
+        candidate += 1  # Check the next number
+        if is_prime(candidate): # Check if it's prime
+            count += 1 # Found a prime, increment count
 
-    return candidate
+    return candidate # Return the nth prime found

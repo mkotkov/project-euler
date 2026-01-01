@@ -5,6 +5,7 @@ from problems.problem_4_solution import largest_palindrome_product    #Largest p
 from problems.problem_5_solution import SmallestMultiple as smallest_multiple         #Smallest multiple
 from problems.problem_6_solution import sum_square_difference #Sum square difference
 from problems.problem_7_solution import nth_prime                 #10001st prime    
+from problems.problem_8_solution import largest_product_in_series  #Largest product in a series
 
 problem_registry = {
     1: multiples_of_3_and_5,    #Multiples of 3 and 5
@@ -13,5 +14,6 @@ problem_registry = {
     4: largest_palindrome_product, #Largest palindrome product
     5: smallest_multiple,        #Smallest multiple
     6: sum_square_difference,    #Sum square difference
-    7: nth_prime                 #10001st prime
+    7: nth_prime,                 #10001st prime
+    8: largest_product_in_series  #Largest product in a series
 }

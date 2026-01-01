@@ -9,12 +9,13 @@
 // Solution
 package problems
 
+// MultiplesOf3and5 calculates the sum of all multiples of 3 or 5 below the given number.
 func MultiplesOf3and5(number int) int {
-	sum := 0
-	for i := 0; i < number; i++ {
-		if i%3 == 0 || i%5 == 0 {
-			sum += i
+	sum := 0 // Initialize sum to 0
+	for i := 0; i < number; i++ { // Loop through numbers below the given number
+		if i%3 == 0 || i%5 == 0 { // Check if the number is a multiple of 3 or 5
+			sum += i // Add the multiple to the sum
 		}
-	}
-	return sum
+	} 
+	return sum 	// Return the final sum
 }

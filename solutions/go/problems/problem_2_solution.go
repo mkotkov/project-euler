@@ -11,14 +11,16 @@
 // Solution
 package problems
 
-func FibonacciSum(limit int) int {
-	a, b := 0, 1
-	sumEven := 0
-	for b < limit {
-		if b%2 == 0 {
-			sumEven += b
-		}
-		a, b = b, a+b
+
+// FibonacciSum calculates the sum of even-valued terms in the Fibonacci sequence up to the given limit.
+func FibonacciSum(limit int) int { 
+	a, b := 0, 1   // Initialize first two Fibonacci numbers
+	sumEven := 0 // Initialize sum of even Fibonacci numbers to 0
+	for b < limit { // Loop until the Fibonacci number exceeds the limit
+		if b%2 == 0 {	// Check if the Fibonacci number is even
+			sumEven += b	// Add the even Fibonacci number to the sum
+		}	
+		a, b = b, a+b 	// Update to the next Fibonacci numbers
 	}
-	return sumEven
+	return sumEven // Return the final sum of even Fibonacci numbers
 }

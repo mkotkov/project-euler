@@ -9,13 +9,13 @@
 
 // Solution
 const multiplesOf3Or5 = (number) => {
-  let total = 0;
-  for(let i = 0; i < number; i++){
-    if(i%3 == 0 || i%5 == 0){
-      total+=i;
-    };
+  let total = 0; // Initialize total variable
+  for(let i = 0; i < number; i++){ // Loop through numbers from 0 to number-1
+    if(i%3 == 0 || i%5 == 0){ // Check if number is multiple of 3 or 5
+      total+=i; // Add to total if condition is met
+    };  
   };
-  return total;
+  return total; // Return the total sum
 };
 
-module.exports = multiplesOf3Or5;
+module.exports = multiplesOf3Or5; // Export the function for use in other files

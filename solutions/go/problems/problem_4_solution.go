@@ -16,21 +16,21 @@ import (
 // n_digt is length of the digits (3 for 3-digit numbers)
 func LargestPalindrome(n_digt int) int {
 	fmt.Printf("Writen number of digits (n): %d\n", n_digt)
-	maxPalindrome := 0
-	lengthLimit := 1
+	maxPalindrome := 0 // Initialize maximum palindrome variable
+	lengthLimit := 1 // Initialize length limit variable
 
-	for i := 0; i < n_digt; i++ {
-		lengthLimit *= 10
+	for i := 0; i < n_digt; i++ {	// Calculate length limit for n-digit numbers
+		lengthLimit *= 10 // 10^n_digt
 	}
 
 	fmt.Printf("Length limit for %d-digit numbers: %d-\n", n_digt, lengthLimit-1)
-	for i := lengthLimit - 1; i >= lengthLimit/10; i-- {
-		for j := lengthLimit - 1; j >= lengthLimit/10; j-- {
-			product := i * j
-			if base.IsPalindrome(product) && product > maxPalindrome {
-				maxPalindrome = product
+	for i := lengthLimit - 1; i >= lengthLimit/10; i-- { // Loop through n-digit numbers in descending order
+		for j := lengthLimit - 1; j >= lengthLimit/10; j-- { // Nested loop for second n-digit number
+			product := i * j // Calculate product
+			if base.IsPalindrome(product) && product > maxPalindrome { // Check if product is palindrome and greater than current max
+				maxPalindrome = product // Update maximum palindrome
 			}
 		}
 	}
-	return maxPalindrome
+	return maxPalindrome // Return the largest palindrome found
 }
