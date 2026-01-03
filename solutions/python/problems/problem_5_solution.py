@@ -12,7 +12,7 @@ def gcd(a, b):
 def lcm(a, b):
     return a * b // gcd(a, b)
 
-def SmallestMultiple(end):
+def smallestMultiple(end):
     result = 1
     for i in range(1, end + 1):
         result = lcm(result, i)

@@ -6,6 +6,7 @@ const problem_5 = require("./problems/problem_5_solution"); //Smallest multiple
 const problem_6 = require("./problems/problem_6_solution"); //Sum square difference
 const problem_7 = require("./problems/problem_7_solution"); //10001st prime
 const problem_8 = require("./problems/problem_8_solution"); //Largest product in a series
+const problem_9 = require("./problems/problem_9_solution"); //Special Pythagorean triplet
 
 const PROBLEMS = {
   1: problem_1, // Problem 1: Multiples of 3 and 5
@@ -16,6 +17,7 @@ const PROBLEMS = {
   6: problem_6, // Problem 6: Sum square difference
   7: problem_7, // Problem 7: 10001st prime
   8: problem_8, // Problem 8: Largest product in a series
+  9: problem_9, // Problem 9: Special Pythagorean triplet
 };
 
 module.exports = { PROBLEMS};

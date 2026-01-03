@@ -11,4 +11,5 @@ var Solutions = map[int]func(int) int{
 	6: problems.SumSquareDifference, //Sum square difference
 	7: problems.NthPrime,           //10001st prime
 	8: problems.LargestProductInSeries, //Largest product in a series
+	9: problems.SpecialPythagoreanTriplet, //Special Pythagorean triplet
 }

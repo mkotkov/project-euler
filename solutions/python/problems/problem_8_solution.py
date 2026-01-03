@@ -24,7 +24,6 @@
 # Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 
 #Solution:
-
 def largest_product_in_series(length):
     # Read the 1000-digit number from a file or define it directly
     number = "73167176531330624919225119674426574742355349194934" \
