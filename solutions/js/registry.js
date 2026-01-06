@@ -8,6 +8,7 @@ const problem_7 = require("./problems/problem_7_solution"); //10001st prime
 const problem_8 = require("./problems/problem_8_solution"); //Largest product in a series
 const problem_9 = require("./problems/problem_9_solution"); //Special Pythagorean triplet
 const problem_10 = require("./problems/problem_10_solution"); //Sum of primes below two million
+const problem_11 = require("./problems/problem_11_solution"); //Largest product in a grid
 
 const PROBLEMS = {
   1: problem_1, // Problem 1: Multiples of 3 and 5
@@ -20,6 +21,7 @@ const PROBLEMS = {
   8: problem_8, // Problem 8: Largest product in a series
   9: problem_9, // Problem 9: Special Pythagorean triplet
   10: problem_10, // Problem 10: Sum of primes below two million
+  11: problem_11, // Problem 11: Largest product in a grid
 };
 
 module.exports = { PROBLEMS};

@@ -8,6 +8,7 @@ from problems.problem_7_solution import nth_prime                   #10001st pri
 from problems.problem_8_solution import largest_product_in_series   #Largest product in a series
 from problems.problem_9_solution import special_pythagorean_triplet #Special Pythagorean triplet
 from problems.problem_10_solution import sum_of_primes_below        #Sum of primes below two million
+from problems.problem_11_solution import largest_product_in_grid  #Largest product in a grid
 
 # Registry mapping problem numbers to their solution functions
 problem_registry = {
@@ -20,5 +21,6 @@ problem_registry = {
     7: nth_prime,                       #10001st prime
     8: largest_product_in_series,       #Largest product in a series
     9: special_pythagorean_triplet,      #Special Pythagorean triplet
-    10: sum_of_primes_below             #Sum of primes below two million
+    10: sum_of_primes_below,             #Sum of primes below two million
+    11: largest_product_in_grid         #Largest product in a grid
 }
