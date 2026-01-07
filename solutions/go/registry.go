@@ -14,4 +14,5 @@ var Solutions = map[int]func(int) int{
 	9: problems.SpecialPythagoreanTriplet, //Special Pythagorean triplet
 	10: problems.SumOfPrimesBelow,  //Sum of primes below two million
 	11: problems.LargestProductInGrid, //Largest product in a grid
+	12: problems.HighlyDivisibleTriangularNumber, //Highly divisible triangular number
 }
