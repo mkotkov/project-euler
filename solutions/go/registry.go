@@ -16,4 +16,5 @@ var Solutions = map[int]func(int) int{
 	11: problems.LargestProductInGrid, 				//Largest product in a grid
 	12: problems.HighlyDivisibleTriangularNumber, 	//Highly divisible triangular number
 	13: problems.LargeSum,          				//Large sum
+	14: problems.LongestCollatzSequence, 			//Longest Collatz sequence
 }

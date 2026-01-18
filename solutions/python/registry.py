@@ -11,6 +11,7 @@ from problems.problem_10_solution import sum_of_primes_below        #Sum of prim
 from problems.problem_11_solution import largest_product_in_grid    #Largest product in a grid
 from problems.problem_12_solution import highly_divisible_triangular_number #Highly divisible triangular number
 from problems.problem_13_solution import large_sum                 #Large sum
+from problems.problem_14_solution import longest_collatz_sequence  #Longest Collatz sequence
 
 # Registry mapping problem numbers to their solution functions
 problem_registry = {
@@ -26,5 +27,6 @@ problem_registry = {
     10: sum_of_primes_below,             #Sum of primes below two million
     11: largest_product_in_grid,         #Largest product in a grid
     12: highly_divisible_triangular_number, #Highly divisible triangular number
-    13: large_sum                       #Large sum
+    13: large_sum,                       #Large sum
+    14: longest_collatz_sequence,        #Longest Collatz sequence
 }

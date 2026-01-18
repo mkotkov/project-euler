@@ -11,6 +11,7 @@ const problem_10 = require("./problems/problem_10_solution"); //Sum of primes be
 const problem_11 = require("./problems/problem_11_solution"); //Largest product in a grid
 const problem_12 = require("./problems/problem_12_solution"); //Highly divisible triangular number
 const problem_13 = require("./problems/problem_13_solution"); //Large sum
+const problem_14 = require("./problems/problem_14_solution"); //Longest Collatz sequence
 
 
 const PROBLEMS = {
@@ -27,6 +28,7 @@ const PROBLEMS = {
   11: problem_11, // Problem 11: Largest product in a grid
   12: problem_12, // Problem 12: Highly divisible triangular number
   13: problem_13, // Problem 13: Large sum
+  14: problem_14, // Problem 14: Longest Collatz sequence
 };
 
 module.exports = { PROBLEMS};
